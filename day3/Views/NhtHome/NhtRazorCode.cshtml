@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "NhtRazorCode";
+    var name = "Nguyen Huu Tuyen";
+    var email = "huutuyen123tc@gmail.com";
+    int age = 50;
+    var total = 12345;
+    bool isActive = true;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="container">
+    <h2>Hiển thị dữ liệu</h2>
+    <p><strong>Name:</strong> @name</p>
+    <p><strong>Email:</strong> @email</p>
+    <p><strong>Age:</strong> @age</p>
+
+    <h2>Cấu trúc if</h2>
+    @if (total > 10000)
+    {
+        <p class="text-success">Lương cao</p>
+    }
+    else
+    {
+        <p class="text-danger">Lương thấp</p>
+    }
+
+    @if (isActive)
+    {
+        <p class="text-primary">Hoạt động</p>
+    }
+    else
+    {
+        <p class="text-warning">Lỗi</p>
+    }
+
+    <h2>Cấu trúc lặp</h2>
+    @for (int i = 0; i < 10; i++)
+    {
+        if (i % 2 == 0)
+        {
+            <span class="btn btn-danger m-1">@i</span>
+        }
+        else
+        {
+            <span class="btn btn-success m-1">@i</span>
+        }
+    }
+</div>
