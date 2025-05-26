@@ -1,0 +1,40 @@
+﻿@model NhtLab06.Models.NhtEmployee
+
+@{
+    ViewData["Title"] = "Thêm Nhân Viên";
+}
+
+<h2>Thêm Nhân Viên Mới</h2>
+
+<form asp-action="NhtCreateSubmit" method="post">
+    <div class="form-group">
+        <label asp-for="NhtName">Họ tên</label>
+        <input asp-for="NhtName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NhtBirthDay">Ngày sinh</label>
+        <input asp-for="NhtBirthDay" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NhtEmail">Email</label>
+        <input asp-for="NhtEmail" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NhtPhone">Số điện thoại</label>
+        <input asp-for="NhtPhone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NhtSalary">Lương</label>
+        <input asp-for="NhtSalary" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NhtStatus">Trạng thái</label>
+        <select asp-for="NhtStatus" class="form-control">
+            <option value="1">Đang làm</option>
+            <option value="2">Đã nghỉ</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Thêm</button>
+    <a asp-action="NhtIndex" class="btn btn-secondary">Quay lại</a>
+</form>
