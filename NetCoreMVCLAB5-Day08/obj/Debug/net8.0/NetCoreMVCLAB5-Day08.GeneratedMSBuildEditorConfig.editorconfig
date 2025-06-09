@@ -32,12 +32,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0QWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NetCoreMVCLAB5-Day08/Views/NhtAccount/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0QWNjb3VudFxEZWxldGUuY3NodG1s
+[C:/K23CNT_NetCore/NetCoreMVCLAB5-Day08/Views/NhtAccount/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0QWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/K23CNT_NetCore/NetCoreMVCLAB5-Day08/Views/NhtAccount/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0QWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K23CNT_NetCore/NetCoreMVCLAB5-Day08/Views/NhtAccount/NhtDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0QWNjb3VudFxOaHREZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/K23CNT_NetCore/NetCoreMVCLAB5-Day08/Views/NhtAccount/NhtIndex.cshtml]

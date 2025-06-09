@@ -80,9 +80,9 @@
                 @Html.DisplayFor(modelItem => item.NhtFacebook)
             </td>
             <td>
-                @Html.ActionLink("Edit", "NhtEdit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "NhtDetails", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "NhtDelete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "NhtEdit", new { id=item.NhtId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.NhtId }) |
+                @Html.ActionLink("Delete", "NhtDelete", new {  id=item.NhtId  })
             </td>
         </tr>
 }

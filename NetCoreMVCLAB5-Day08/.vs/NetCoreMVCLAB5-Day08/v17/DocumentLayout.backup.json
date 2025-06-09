@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\nhtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\nhtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\controllers\\nhtaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:controllers\\nhtaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\models\\nhtaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:models\\nhtaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\nhtaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:views\\nhtaccount\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B730A581-154C-40B0-9CE7-8F2E6115188C}|NetCoreMVCLAB5-Day08.csproj|c:\\k23cnt_netcore\\netcoremvclab5-day08\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,19 +79,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhtAccountController.cs",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtAccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhtAccountController.cs",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtAccountController.cs",
-              "RelativeToolTip": "Controllers\\NhtAccountController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwEIAAAArAAAAAAAAAA==",
+              "Title": "NhtDelete.cshtml",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtAccount\\NhtDelete.cshtml",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtDelete.cshtml*",
+              "RelativeToolTip": "Views\\NhtAccount\\NhtDelete.cshtml*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T08:03:22.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhtIndex.cshtml",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtAccount\\NhtIndex.cshtml",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtIndex.cshtml",
+              "RelativeToolTip": "Views\\NhtAccount\\NhtIndex.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwFQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T02:55:34.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhtHomeController.cs",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhtHomeController.cs",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtHomeController.cs",
+              "RelativeToolTip": "Controllers\\NhtHomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:32:42.438Z",
+              "WhenOpened": "2025-06-09T02:26:25.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:25:58.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhtAccount.cs",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Models\\NhtAccount.cs",
+              "RelativeDocumentMoniker": "Models\\NhtAccount.cs",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Models\\NhtAccount.cs",
+              "RelativeToolTip": "Models\\NhtAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:29:58.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -100,72 +156,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtAccount\\Edit.cshtml",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NhtAccount\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T03:39:53.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhtAccountController.cs",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtAccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhtAccountController.cs",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtAccountController.cs*",
+              "RelativeToolTip": "Controllers\\NhtAccountController.cs*",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAYwH4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:32:42.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\NhtAccount\\Create.cshtml",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Create.cshtml*",
-              "RelativeToolTip": "Views\\NhtAccount\\Create.cshtml*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEkAAABDAAAAAAAAAA==",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhtAccount\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-09T03:15:29.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_NhtLayout.cshtml",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\Shared\\_NhtLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_NhtLayout.cshtml",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\Shared\\_NhtLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_NhtLayout.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwB0AAAB2AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtAccount\\Details.cshtml",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Details.cshtml",
+              "RelativeToolTip": "Views\\NhtAccount\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T02:26:38.499Z",
+              "WhenOpened": "2025-06-09T06:59:10.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhtIndex.cshtml",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\NhtAccount\\NhtIndex.cshtml",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\NhtIndex.cshtml",
-              "RelativeToolTip": "Views\\NhtAccount\\NhtIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T02:55:34.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhtAccount.cs",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Models\\NhtAccount.cs",
-              "RelativeDocumentMoniker": "Models\\NhtAccount.cs",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Models\\NhtAccount.cs",
-              "RelativeToolTip": "Models\\NhtAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:29:58.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhtHomeController.cs",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtHomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NhtHomeController.cs",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Controllers\\NhtHomeController.cs",
-              "RelativeToolTip": "Controllers\\NhtHomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:26:25.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -173,51 +216,23 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T02:25:26.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\NhtAccount\\Edit.cshtml",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Edit.cshtml",
-              "RelativeToolTip": "Views\\NhtAccount\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T03:39:53.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\NhtAccount\\Delete.cshtml",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\NhtAccount\\Delete.cshtml",
-              "RelativeToolTip": "Views\\NhtAccount\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T03:40:31.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T02:25:58.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T02:25:26.779Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "_NhtLayout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\Shared\\_NhtLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NhtLayout.cshtml",
+              "ToolTip": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\Shared\\_NhtLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NhtLayout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwB0AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T02:26:38.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\K23CNT_NetCore\\NetCoreMVCLAB5-Day08\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -225,8 +240,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-09T03:05:22.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T03:05:22.052Z"
             }
           ]
         }

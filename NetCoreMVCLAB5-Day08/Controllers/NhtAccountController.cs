@@ -1,136 +1,144 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 using NetCoreMVCLAB5_Day08.Models;
-using System.Security.Cryptography.X509Certificates;
-using System.Security.Principal;
-
 namespace NetCoreMVCLAB5_Day08.Controllers
 {
     public class NhtAccountController : Controller
     {
         private static List<NhtAccount> accounts = new List<NhtAccount>()
-    {
-    new NhtAccount
-    {
-        NhtId = 1,
-        NhtFullName = "Nguyễn Văn A",
-        NhtEmail = "vana@example.com",
-        NhtPhone = "0986421127",
-        NhtAddress = "Hà Nội",
-        NhtAvatar = "avatar1.png",
-        NhtBirthday = new DateTime(1990, 5, 20),
-        NhtGender = "Nam",
-        NhtPassword = "password1",
-        NhtFacebook = "https://facebook.com/vana"
-    },
-    new NhtAccount
-    {
-        NhtId = 2,
-        NhtFullName = "Trần Thị B",
-        NhtEmail = "thib@example.com",
-        NhtPhone = "0981234567",
-        NhtAddress = "Đà Nẵng",
-        NhtAvatar = "avatar2.png",
-        NhtBirthday = new DateTime(1995, 10, 10),
-        NhtGender = "Nữ",
-        NhtPassword = "password2",
-        NhtFacebook = "https://facebook.com/thib"
-    },
-    new NhtAccount
-    {
-        NhtId = 3,
-        NhtFullName = "Lê Văn C",
-        NhtEmail = "vanc@example.com",
-        NhtPhone = "0977654321",
-        NhtAddress = "TP.HCM",
-        NhtAvatar = "avatar3.png",
-        NhtBirthday = new DateTime(1988, 3, 15),
-        NhtGender = "Nam",
-        NhtPassword = "password3",
-        NhtFacebook = "https://facebook.com/vanc"
-    }
-};
-        // GET: NhtAccountController
-        public ActionResult NhtIndex()
         {
-           
+            new NhtAccount
+            {
+                NhtId = 1,
+                NhtFullName = "Nguyễn Văn A",
+                NhtEmail = "vana@example.com",
+                NhtPhone = "0986421127",
+                NhtAddress = "Hà Nội",
+                NhtAvatar = "avatar1.png",
+                NhtBirthday = new DateTime(1990, 5, 20),
+                NhtGender = "Nam",
+                NhtPassword = "password1",
+                NhtFacebook = "https://facebook.com/vana"
+            },
+            new NhtAccount
+            {
+                NhtId = 2,
+                NhtFullName = "Trần Thị B",
+                NhtEmail = "thib@example.com",
+                NhtPhone = "0981234567",
+                NhtAddress = "Đà Nẵng",
+                NhtAvatar = "avatar2.png",
+                NhtBirthday = new DateTime(1995, 10, 10),
+                NhtGender = "Nữ",
+                NhtPassword = "password2",
+                NhtFacebook = "https://facebook.com/thib"
+            },
+            new NhtAccount
+            {
+                NhtId = 3,
+                NhtFullName = "Lê Văn C",
+                NhtEmail = "vanc@example.com",
+                NhtPhone = "0977654321",
+                NhtAddress = "TP.HCM",
+                NhtAvatar = "avatar3.png",
+                NhtBirthday = new DateTime(1988, 3, 15),
+                NhtGender = "Nam",
+                NhtPassword = "password3",
+                NhtFacebook = "https://facebook.com/vanc"
+            }
+        };
+
+        // GET: NhtAccount/NhtIndex
+        public IActionResult NhtIndex()
+        {
             return View(accounts);
-
         }
 
-        // GET: NhtAccountController/Details/5
-        public ActionResult Details(int id)
+        // GET: NhtAccount/Details/5
+        public IActionResult Details(int id)
         {
-            return View();
+            var account = accounts.FirstOrDefault(a => a.NhtId == id);
+            if (account == null) return NotFound();
+            return View(account);
         }
 
-        // GET: NhtAccountController/Create
-        public ActionResult Create()
+        // GET: NhtAccount/Create
+        public IActionResult Create()
         {
-            NhtAccount Nhtmodel = new NhtAccount();  
-            return View(Nhtmodel);
+            return View(new NhtAccount());
         }
 
-        // POST: NhtAccountController/Create
+        // POST: NhtAccount/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(NhtAccount Nhtmodel)
+        public IActionResult Create(NhtAccount model)
         {
             try
             {
-                if (Nhtmodel.NhtId==0)
-                {
-                    Nhtmodel.NhtId = accounts.Max(e => e.NhtId) +1;
-                }    
-                accounts.Add(Nhtmodel);
+                model.NhtId = accounts.Max(a => a.NhtId) + 1;
+                accounts.Add(model);
                 return RedirectToAction(nameof(NhtIndex));
             }
             catch
             {
-                return View();
+                return View(model);
             }
         }
 
-        // GET: NhtAccountController/Edit/5
-        public ActionResult Edit(int id)
+        // GET: NhtAccount/Edit/5
+        public IActionResult Edit(int id)
         {
-            return View();
+            var account = accounts.FirstOrDefault(a => a.NhtId == id);
+            if (account == null) return NotFound();
+            return View(account);
         }
 
-        // POST: NhtAccountController/Edit/5
+        // POST: NhtAccount/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public IActionResult Edit(int id, NhtAccount updatedAccount)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var account = accounts.FirstOrDefault(a => a.NhtId == id);
+            if (account == null) return NotFound();
+
+            account.NhtFullName = updatedAccount.NhtFullName;
+            account.NhtEmail = updatedAccount.NhtEmail;
+            account.NhtPhone = updatedAccount.NhtPhone;
+            account.NhtAddress = updatedAccount.NhtAddress;
+            account.NhtAvatar = updatedAccount.NhtAvatar;
+            account.NhtBirthday = updatedAccount.NhtBirthday;
+            account.NhtGender = updatedAccount.NhtGender;
+            account.NhtPassword = updatedAccount.NhtPassword;
+            account.NhtFacebook = updatedAccount.NhtFacebook;
+
+            return RedirectToAction(nameof(NhtIndex));
         }
 
-        // GET: NhtAccountController/Delete/5
-        public ActionResult Delete(int id)
+        
+        public ActionResult NhtDelete(int id) // Đổi tên action và kiểu trả về
         {
-            return View();
+            var account = accounts.FirstOrDefault(a => a.NhtId == id);
+            if (account == null) return NotFound();
+            return View(account); // Mặc định tìm Views/NhtAccount/Delete.cshtml
         }
-
-        // POST: NhtAccountController/Delete/5
-        [HttpPost]
+        [HttpPost, ActionName("NhtDelete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteConfirmed(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var account = accounts.FirstOrDefault(a => a.NhtId == id);
+            if (account == null) return NotFound();
+
+            accounts.Remove(account);
+
+            // Chuyển hướng về action index đúng tên
+            return RedirectToAction("NhtIndex");  // hoặc tên action đúng trong controller của bạn
         }
+
+
+
+
     }
 }
