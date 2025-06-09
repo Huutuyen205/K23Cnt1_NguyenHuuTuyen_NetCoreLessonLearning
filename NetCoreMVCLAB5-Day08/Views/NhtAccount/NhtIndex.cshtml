@@ -1,0 +1,90 @@
+﻿@model IEnumerable<NetCoreMVCLAB5_Day08.Models.NhtAccount>
+
+@{
+    ViewData["Title"] = "NhtIndex";
+    Layout = "~/Views/Shared/_NhtLayout.cshtml";
+}
+
+<h1>NhtIndex</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhtFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtAvatar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhtFacebook)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "NhtEdit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "NhtDetails", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "NhtDelete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
