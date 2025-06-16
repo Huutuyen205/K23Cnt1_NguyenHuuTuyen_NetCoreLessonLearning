@@ -1,0 +1,35 @@
+﻿@model IEnumerable<NhtLesson09.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="NhtCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                <a asp-action="NhtEdit" asp-route-nhtId="@item.CategoryId">Edit</a> |
+                    <a asp-action="NhtDetails" asp-route-nhtId="@item.CategoryId">Details</a> |
+                    <a asp-action="NhtDelete" asp-route-nhtId="@item.CategoryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
