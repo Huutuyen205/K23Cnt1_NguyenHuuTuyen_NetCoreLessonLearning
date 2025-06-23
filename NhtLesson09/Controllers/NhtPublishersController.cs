@@ -19,21 +19,21 @@ namespace NhtLesson09.Controllers
         }
 
         // GET: NhtPublishers
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult>NhtIndex2()
         {
             return View(await _context.Publishers.ToListAsync());
         }
 
         // GET: NhtPublishers/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult>NhtDetails(int? nhtId)
         {
-            if (id == null)
+            if (nhtId == null)
             {
                 return NotFound();
             }
 
             var publisher = await _context.Publishers
-                .FirstOrDefaultAsync(m => m.PublisherId == id);
+                .FirstOrDefaultAsync(m => m.PublisherId == nhtId);
             if (publisher == null)
             {
                 return NotFound();
@@ -43,7 +43,7 @@ namespace NhtLesson09.Controllers
         }
 
         // GET: NhtPublishers/Create
-        public IActionResult Create()
+        public IActionResult NhtCreate()
         {
             return View();
         }
@@ -53,26 +53,26 @@ namespace NhtLesson09.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
+        public async Task<IActionResult> NhtCreate([Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(publisher);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(NhtIndex2));
             }
             return View(publisher);
         }
 
         // GET: NhtPublishers/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> NhtEdit(int? nhtId)
         {
-            if (id == null)
+            if (nhtId    == null)
             {
                 return NotFound();
             }
 
-            var publisher = await _context.Publishers.FindAsync(id);
+            var publisher = await _context.Publishers.FindAsync(nhtId);
             if (publisher == null)
             {
                 return NotFound();
@@ -85,9 +85,9 @@ namespace NhtLesson09.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
+        public async Task<IActionResult> NhtEdit(int nhtId, [Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
         {
-            if (id != publisher.PublisherId)
+            if (nhtId != publisher.PublisherId)
             {
                 return NotFound();
             }
@@ -110,21 +110,21 @@ namespace NhtLesson09.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(NhtIndex2));
             }
             return View(publisher);
         }
 
         // GET: NhtPublishers/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> NhtDelete(int? nhtId)
         {
-            if (id == null)
+            if (nhtId == null)
             {
                 return NotFound();
             }
 
             var publisher = await _context.Publishers
-                .FirstOrDefaultAsync(m => m.PublisherId == id);
+                .FirstOrDefaultAsync(m => m.PublisherId == nhtId);
             if (publisher == null)
             {
                 return NotFound();
@@ -134,23 +134,23 @@ namespace NhtLesson09.Controllers
         }
 
         // POST: NhtPublishers/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("NhtDelete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int nhtId)
         {
-            var publisher = await _context.Publishers.FindAsync(id);
+            var publisher = await _context.Publishers.FindAsync(nhtId);
             if (publisher != null)
             {
                 _context.Publishers.Remove(publisher);
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(NhtIndex2));
         }
 
-        private bool PublisherExists(int id)
+        private bool PublisherExists(int nhtId)
         {
-            return _context.Publishers.Any(e => e.PublisherId == id);
+            return _context.Publishers.Any(e => e.PublisherId == nhtId);
         }
     }
 }

@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<NhtLesson09.Models.Publisher>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "TuyenChuyenVanNeHiHi2";
 }
 
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="NhtCreate">Thêm Mới</a>
 </p>
 <table class="table">
     <thead>
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Address)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PublisherId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PublisherId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PublisherId">Delete</a>
+                <a asp-action="NhtEdit" asp-route-nhtId="@item.PublisherId">Sửa</a> |
+                    <a asp-action="NhtDetails" asp-route-nhtId="@item.PublisherId">Thông Tin</a> |
+                    <a asp-action="NhtDelete" asp-route-nhtId="@item.PublisherId">Xóa</a>
             </td>
         </tr>
 }

@@ -56,24 +56,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0SG9tZVxOaHRQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
+[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/NhtCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xOaHRDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xEZWxldGUuY3NodG1s
+[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/NhtDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xOaHREZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
+[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/NhtDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xOaHREZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
+[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/NhtEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xOaHRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
+[C:/K23CNT_NetCore/NhtLesson09/Views/NhtPublishers/NhtIndex2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmh0UHVibGlzaGVyc1xOaHRJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/K23CNT_NetCore/NhtLesson09/Views/Shared/NhtError.cshtml]

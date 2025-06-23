@@ -1,35 +1,57 @@
 ﻿@model IEnumerable<NhtLesson09.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "NhtCategories";
 }
 
-<h1>Index</h1>
+<h1 class="text-center">@ViewData["Title"] </h1>
+<div class="d-flex p-2 bd-highlight">
+    <form class="d-flex" method="get" asp-action="NhtIndex1" asp-controller="NhtCategories">
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="keyword" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <a asp-action="NhtCreate" class="btn btn-online-success">Thêm Danh Sách</a>
+
+</div>
 
 <p>
-    <a asp-action="NhtCreate">Create New</a>
+ 
 </p>
-<table class="table">
+<table class="table table-bordered mt-3">
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.CategoryName)
             </th>
-            <th></th>
+            <th class="text-center"> chuc nang </th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
+                    @Html.DisplayFor(modelItem => item.CategoryId)
+             </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.CategoryName)
             </td>
-            <td>
-                <a asp-action="NhtEdit" asp-route-nhtId="@item.CategoryId">Edit</a> |
-                    <a asp-action="NhtDetails" asp-route-nhtId="@item.CategoryId">Details</a> |
-                    <a asp-action="NhtDelete" asp-route-nhtId="@item.CategoryId">Delete</a>
+            <td class="text-center">
+                <a asp-action="NhtEdit" asp-route-nhtId="@item.CategoryId" class="btn btn-primary">Sửa</a> 
+                    <a asp-action="NhtDetails" asp-route-nhtId="@item.CategoryId" class="btn btn-info">Thông tin </a> 
+                    <a asp-action="NhtDelete" asp-route-nhtId="@item.CategoryId" class="btn btn-danger">Xóa</a>
             </td>
         </tr>
 }
     </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">
+                Tong so : @Model.Count()
+            </th>
+        </tr>
+    </tfoot>
 </table>
