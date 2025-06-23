@@ -19,9 +19,15 @@ namespace NhtLesson09.Controllers
         }
 
         // GET: NhtPublishers
-        public async Task<IActionResult>NhtIndex2()
+        public async Task<IActionResult> NhtIndex2(string keyword)
         {
-            return View(await _context.Publishers.ToListAsync());
+            var nhtPublishers    = await _context.Publishers.ToListAsync();
+            if (!string.IsNullOrEmpty(keyword))
+            {
+                nhtPublishers = nhtPublishers.Where(x => x.PublisherName.Contains(keyword)).ToList();
+
+            }
+            return View(nhtPublishers);
         }
 
         // GET: NhtPublishers/Details/5

@@ -1,17 +1,24 @@
 ﻿@model IEnumerable<NhtLesson09.Models.Publisher>
 
 @{
-    ViewData["Title"] = "TuyenChuyenVanNeHiHi2";
+    ViewData["Title"] = "NhtPublishers";
 }
 
-<h1>Index</h1>
+<h1 class="text-center">@ViewData["Title"] </h1>
+<div class="d-flex p-2 bd-highlight">
+    <form class="d-flex" method="get" asp-action="NhtIndex2" asp-controller="NhtPublishers">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="keyword" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <a asp-action="NhtCreate" class="btn btn-online-success ms-2">Thêm Danh Sách</a>
+</div>
 
-<p>
-    <a asp-action="NhtCreate">Thêm Mới</a>
-</p>
-<table class="table">
+<table class="table table-bordered mt-3">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PublisherId)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.PublisherName)
             </th>
@@ -21,27 +28,38 @@
             <th>
                 @Html.DisplayNameFor(model => model.Address)
             </th>
-            <th></th>
+            <th class="text-center">Chức năng</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.PublisherName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                <a asp-action="NhtEdit" asp-route-nhtId="@item.PublisherId">Sửa</a> |
-                    <a asp-action="NhtDetails" asp-route-nhtId="@item.PublisherId">Thông Tin</a> |
-                    <a asp-action="NhtDelete" asp-route-nhtId="@item.PublisherId">Xóa</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublisherId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublisherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td class="text-center">
+                    <a asp-action="NhtEdit" asp-route-nhtId="@item.PublisherId" class="btn btn-primary">Sửa</a>
+                    <a asp-action="NhtDetails" asp-route-nhtId="@item.PublisherId" class="btn btn-info">Thông tin</a>
+                    <a asp-action="NhtDelete" asp-route-nhtId="@item.PublisherId" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
     </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="5">
+                Tổng số: @Model.Count()
+            </th>
+        </tr>
+    </tfoot>
 </table>
