@@ -1,0 +1,61 @@
+﻿@model NhtLesson10.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .status-true {
+        color: green;
+        font-weight: bold;
+    }
+
+    .status-false {
+        color: red;
+        font-weight: bold;
+    }
+
+    .btn-edit {
+        background-color: #28a745;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    .btn-back {
+        margin-left: 10px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .btn-edit:hover {
+        background-color: #218838;
+    }
+
+    .btn-back:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Category</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Category Name</dt>
+        <dd class="col-sm-10">@Model.CateName</dd>
+
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">
+            <span class="@(Model.CateStatus == true ? "status-true" : "status-false")">
+                @(Model.CateStatus == true ? "Active" : "Inactive")
+            </span>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="NhtEdit" asp-route-id="@Model?.CateId" class="btn-edit">Edit</a>
+    <a asp-action="NhtIndex1" class="btn-back">Back to List</a>
+</div>

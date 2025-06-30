@@ -1,0 +1,80 @@
+﻿@model NhtLesson10.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .form-control {
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .btn-create {
+        background-color: #28a745;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-back {
+        display: inline-block;
+        margin-top: 10px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .btn-back:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h1>Create</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NhtCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="CateId" class="control-label"></label>
+                <input asp-for="CateId" class="form-control" />
+                <span asp-validation-for="CateId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CateName" class="control-label"></label>
+                <input asp-for="CateName" class="form-control" />
+                <span asp-validation-for="CateName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CateStatus" class="control-label"></label>
+                <select asp-for="CateStatus" class="form-control">
+                    <option value="true">True (Active)</option>
+                    <option value="false">False (Inactive)</option>
+                </select>
+                <span asp-validation-for="CateStatus" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn-create" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NhtIndex1" class="btn-back">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

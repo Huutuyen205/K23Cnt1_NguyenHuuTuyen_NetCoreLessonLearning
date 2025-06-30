@@ -1,0 +1,72 @@
+﻿@model IEnumerable<NhtLesson10.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+    var total = Model.Count();
+}
+
+<style>
+    .status-true {
+        color: green;
+        font-weight: bold;
+    }
+
+    .status-false {
+        color: red;
+        font-weight: bold;
+    }
+
+    .table th {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+
+    .total-count {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="NhtCreate" class="btn btn-primary">+ Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().CateName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().CateStatus)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CateName</td>
+                <td class="@(item.CateStatus == true ? "status-true" : "status-false")">
+                    @(item.CateStatus == true ? "Active" : "Inactive")
+                </td>
+                <td>
+                    <a asp-action="NhtEdit" asp-route-id="@item.CateId" class="btn btn-success">Edit</a>
+                    <a asp-action="NhtDetails" asp-route-id="@item.CateId" class="btn btn-info">Details</a>
+                    <a asp-action="NhtDelete" asp-route-id="@item.CateId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p class="total-count">Total Categories: @total</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
