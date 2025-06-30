@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhtemployees\\nhtindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhtemployees\\nhtindex1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\models\\nhtemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:models\\nhtemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhtemployees\\nhtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhtemployees\\nhtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhtemployees\\nhtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhtemployees\\nhtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\shared\\_nhtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhthome\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhthome\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhthome\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhthome\\nhtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhtemployees\\nhtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhtemployees\\nhtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\nhtemployees\\nhtdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\nhtemployees\\nhtdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:controllers\\nhthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\controllers\\nhtemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:controllers\\nhtemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|c:\\users\\tuyen\\desktop\\nht_2310900105\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4D5F0E9-4595-4FF9-B000-62919145952A}|NHT_2310900105.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhtDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtEmployees\\NhtDetails.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtDetails.cshtml",
+              "RelativeToolTip": "Views\\NhtEmployees\\NhtDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:24:19.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhtEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtEmployees\\NhtEdit.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtEdit.cshtml",
+              "RelativeToolTip": "Views\\NhtEmployees\\NhtEdit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:24:27.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_NhtLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\Shared\\_NhtLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NhtLayout.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\Shared\\_NhtLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NhtLayout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:24:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhtDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtEmployees\\NhtDelete.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtDelete.cshtml",
+              "RelativeToolTip": "Views\\NhtEmployees\\NhtDelete.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:24:08.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhtCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtEmployees\\NhtCreate.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtCreate.cshtml",
+              "RelativeToolTip": "Views\\NhtEmployees\\NhtCreate.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:10:56.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhtEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Models\\NhtEmployee.cs",
+              "RelativeDocumentMoniker": "Models\\NhtEmployee.cs",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Models\\NhtEmployee.cs",
+              "RelativeToolTip": "Models\\NhtEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T02:21:07.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhtIndex1.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtIndex1.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtEmployees\\NhtIndex1.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtEmployees\\NhtIndex1.cshtml",
+              "RelativeToolTip": "Views\\NhtEmployees\\NhtIndex1.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:22:39.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T02:03:54.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NhtEmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Controllers\\NhtEmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhtEmployeesController.cs",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Controllers\\NhtEmployeesController.cs",
+              "RelativeToolTip": "Controllers\\NhtEmployeesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T02:06:21.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhtIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtHome\\NhtIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtHome\\NhtIndex.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtHome\\NhtIndex.cshtml",
+              "RelativeToolTip": "Views\\NhtHome\\NhtIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T03:14:11.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtHome\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhtHome\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\NhtHome\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\NhtHome\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T03:14:14.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T02:21:17.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NhtHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Controllers\\NhtHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhtHomeController.cs",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Controllers\\NhtHomeController.cs",
+              "RelativeToolTip": "Controllers\\NhtHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:44:23.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T02:22:58.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\TUYEN\\Desktop\\NHT_2310900105\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T02:03:55.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+﻿@model NHT_2310900105.Models.NhtEmployee
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!-- Bootstrap & CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<style>
+    body {
+        background-color: #fff0f0;
+        padding: 30px;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+</style>
+
+<h1 class="text-center text-danger mb-4">Delete</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h4 class="text-danger mb-3">Are you sure you want to delete this?</h4>
+            <dl class="row">
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.NhtEmpName)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NhtEmpName)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.NhtEmpLevel)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NhtEmpLevel)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.NhtEmpStartDate)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NhtEmpStartDate)</dd>
+
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.NhtEmpStatus)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NhtEmpStatus)</dd>
+            </dl>
+
+            <form asp-action="NhtDelete" class="mt-3">
+                <input type="hidden" asp-for="NhtEmpId" />
+                <button type="submit" class="btn btn-danger">Delete</button>
+                <a asp-action="NhtIndex1" class="btn btn-secondary ms-2">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>

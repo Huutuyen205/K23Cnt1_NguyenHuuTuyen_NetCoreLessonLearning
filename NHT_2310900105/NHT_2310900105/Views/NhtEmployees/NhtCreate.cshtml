@@ -1,0 +1,99 @@
+﻿@model NHT_2310900105.Models.NhtEmployee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!-- Link trực tiếp Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- CSS tùy chỉnh nội bộ -->
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 30px;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-control:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 15px;
+    }
+</style>
+
+<h1 class="text-center mb-4">Create</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h4 class="mb-3 text-primary">NhtEmployee</h4>
+            <form asp-action="NhtCreate">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="NhtEmpId" class="form-label"></label>
+                    <input asp-for="NhtEmpId" class="form-control" />
+                    <span asp-validation-for="NhtEmpId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NhtEmpName" class="form-label"></label>
+                    <input asp-for="NhtEmpName" class="form-control" />
+                    <span asp-validation-for="NhtEmpName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NhtEmpLevel" class="form-label"></label>
+                    <input asp-for="NhtEmpLevel" class="form-control" />
+                    <span asp-validation-for="NhtEmpLevel" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NhtEmpStartDate" class="form-label"></label>
+                    <input asp-for="NhtEmpStartDate" class="form-control" />
+                    <span asp-validation-for="NhtEmpStartDate" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NhtEmpStatus" class="form-label"></label>
+                    <select asp-for="NhtEmpStatus" class="form-select">
+                        <option value="">-- Chọn trạng thái --</option>
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                    <span asp-validation-for="NhtEmpStatus" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+
+            <div class="mt-3">
+                <a asp-action="NhtIndex1" class="text-decoration-none">&larr; Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
