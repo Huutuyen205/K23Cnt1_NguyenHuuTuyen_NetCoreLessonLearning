@@ -212,11 +212,6 @@ C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\lesson05model.RazorAssemblyInfo
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\lesson05model.sourcelink.json
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.build.json
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.development.json
-C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets\msbuild.lesson05model.Microsoft.AspNetCore.StaticWebAssets.props
-C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets\msbuild.build.lesson05model.props
-C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.lesson05model.props
-C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.lesson05model.props
-C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.pack.json
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\scopedcss\Views\Shared\_NhtLayout.cshtml.rz.scp.css
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\scopedcss\bundle\lesson05model.styles.css
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\scopedcss\projectbundle\lesson05model.bundle.scp.css
@@ -226,3 +221,7 @@ C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\refint\lesson05model.dll
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\lesson05model.pdb
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\lesson05model.genruntimeconfig.cache
 C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\ref\lesson05model.dll
+C:\K23CNT_NetCore\lesson05model\bin\Debug\net8.0\lesson05model.staticwebassets.endpoints.json
+C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\K23CNT_NetCore\lesson05model\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,64 @@
+﻿@model Nht_2310900105_De01.Models.NhtComputer
+
+@{
+    ViewData["Title"] = "Thêm mới máy tính";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<div class="alert alert-info">
+    <strong>Ghi chú loại máy (NhtCateId):</strong><br />
+    1 = Laptop &nbsp;&nbsp; 2 = Desktop &nbsp;&nbsp; 3 = Macbook<br />
+  
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="NhtCreate" class="border p-4 rounded bg-light shadow-sm">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhtComName" class="form-label fw-bold"></label>
+                <input asp-for="NhtComName" class="form-control" />
+                <span asp-validation-for="NhtComName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhtComPrice" class="form-label fw-bold"></label>
+                <input asp-for="NhtComPrice" class="form-control" />
+                <span asp-validation-for="NhtComPrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhtComStatus" class="form-label fw-bold"></label>
+                <select asp-for="NhtComStatus" class="form-select">
+                    <option value="true">Còn hàng</option>
+                    <option value="false">Hết hàng</option>
+                </select>
+                <span asp-validation-for="NhtComStatus" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhtComImage" class="form-label fw-bold"></label>
+                <input asp-for="NhtComImage" class="form-control" />
+                <span asp-validation-for="NhtComImage" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="NhtCateId" class="form-label fw-bold"></label>
+                <select asp-for="NhtCateId" class="form-select" asp-items="ViewBag.NhtCateId"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Thêm mới" class="btn btn-success" />
+                <a asp-action="NhtIndex1" class="btn btn-secondary ms-2">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,31 @@
+﻿@model Nht_2310900105_De01.Models.NhtComputer
+
+@{
+    ViewData["Title"] = "Chi tiết máy tính";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<div class="border rounded bg-light p-4 mb-4">
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComName)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComName)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComPrice)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComPrice)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComStatus)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComStatus)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComImage)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComImage)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtCate)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtCate.NhtCateId)</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="NhtEdit" asp-route-id="@Model?.NhtComId" class="btn btn-primary">Chỉnh sửa</a>
+    <a asp-action="NhtIndex1" class="btn btn-secondary ms-2">Quay lại</a>
+</div>

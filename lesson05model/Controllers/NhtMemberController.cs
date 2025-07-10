@@ -1,4 +1,5 @@
-﻿using lesson05model.Models.DataModels;
+﻿using 
+    lesson05model.Models.DataModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace lesson05model.Controllers
@@ -21,5 +22,7 @@ namespace lesson05model.Controllers
             ViewBag.nhtMember = NhtMember;
             return View();
         }
+
+
     }
 }

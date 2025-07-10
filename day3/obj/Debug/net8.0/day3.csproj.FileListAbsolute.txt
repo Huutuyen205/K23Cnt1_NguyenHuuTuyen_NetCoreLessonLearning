@@ -15,11 +15,6 @@ C:\K23CNT_NetCore\day3\obj\Debug\net8.0\day3.RazorAssemblyInfo.cache
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\day3.RazorAssemblyInfo.cs
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.build.json
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.development.json
-C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets\msbuild.day3.Microsoft.AspNetCore.StaticWebAssets.props
-C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets\msbuild.build.day3.props
-C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.day3.props
-C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.day3.props
-C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.pack.json
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\scopedcss\Views\Shared\_NhtLayout.cshtml.rz.scp.css
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\scopedcss\bundle\day3.styles.css
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\scopedcss\projectbundle\day3.bundle.scp.css
@@ -226,3 +221,7 @@ C:\K23CNT_NetCore\day3\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.E
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\day3.csproj.AssemblyReference.cache
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\day3.csproj.Up2Date
 C:\K23CNT_NetCore\day3\obj\Debug\net8.0\day3.sourcelink.json
+C:\K23CNT_NetCore\day3\bin\Debug\net8.0\day3.staticwebassets.endpoints.json
+C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\K23CNT_NetCore\day3\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

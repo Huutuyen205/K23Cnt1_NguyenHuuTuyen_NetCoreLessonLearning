@@ -1,0 +1,36 @@
+﻿@model Nht_2310900105_De01.Models.NhtComputer
+
+@{
+    ViewData["Title"] = "Xóa máy tính";
+}
+
+<h2 class="mb-4 text-danger">@ViewData["Title"]</h2>
+
+<div class="alert alert-warning">
+    <strong>Bạn có chắc chắn muốn xóa bản ghi này không?</strong>
+</div>
+
+<div class="border rounded bg-light p-4 mb-4">
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComName)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComName)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComPrice)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComPrice)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComStatus)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComStatus)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtComImage)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtComImage)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NhtCate)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NhtCate.NhtCateId)</dd>
+    </dl>
+</div>
+
+<form asp-action="NhtDelete">
+    <input type="hidden" asp-for="NhtComId" />
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="NhtIndex1" class="btn btn-secondary ms-2">Hủy</a>
+</form>

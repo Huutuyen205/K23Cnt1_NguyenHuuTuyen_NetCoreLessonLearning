@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Nht_2310900105_De01.Models.NhtComputer>
+
+@{
+    ViewData["Title"] = "Danh sách máy tính";
+    var totalCount = Model.Count();
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<p>
+    <a asp-action="NhtCreate" class="btn btn-primary mb-3">Thêm mới máy tính</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.NhtComName)</th>
+            <th>@Html.DisplayNameFor(model => model.NhtComPrice)</th>
+            <th>@Html.DisplayNameFor(model => model.NhtComStatus)</th>
+            <th>@Html.DisplayNameFor(model => model.NhtComImage)</th>
+            <th>@Html.DisplayNameFor(model => model.NhtCate)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.NhtComName)</td>
+                <td>@Html.DisplayFor(modelItem => item.NhtComPrice)</td>
+                <td>@(item.NhtComStatus.HasValue && item.NhtComStatus.Value ? "Còn hàng" : "Hết hàng")</td>
+                <td>@Html.DisplayFor(modelItem => item.NhtComImage)</td>
+                <td>@Html.DisplayFor(modelItem => item.NhtCate.NhtCateId)</td>
+                <td>
+                    <a asp-action="NhtEdit" asp-route-id="@item.NhtComId" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="NhtDetails" asp-route-id="@item.NhtComId" class="btn btn-sm btn-info mx-1">Chi tiết</a>
+                    <a asp-action="NhtDelete" asp-route-id="@item.NhtComId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p class="mt-3"><strong>Tổng số máy tính:</strong> @totalCount</p>
+
+<div class="alert alert-secondary mt-4">
+    <strong>Ghi chú danh mục:</strong><br />
+    1 = Laptop &nbsp;&nbsp;  2 = Desktop &nbsp;&nbsp;  3 = Macbook
+</div>
